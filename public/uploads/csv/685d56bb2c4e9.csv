@@ -1,0 +1,7 @@
+code,name,description,price,points_cost,category,active
+AP-01,Appetizer Platter,"Assorted starters",25.00,500,Starters,true
+AP-02,Hummus Bowl,"Classic hummus with olive oil",15.00,300,Starters,true
+MC-01,Grilled Chicken,"Served with mashed potatoes",40.00,800,Main Course,true
+MC-02,Seafood Pasta,"Pasta with shrimp and calamari",45.50,850,Main Course,true
+DS-01,Chocolate Cake,"Rich chocolate dessert",20.00,400,Desserts,true
+DS-02,Fruit Salad,"Seasonal fresh fruits",18.00,350,Desserts,true

@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'fetched'            => 'Room types fetched successfully.',
+    'fetched_single'     => 'Room type fetched successfully.',
+    'created'            => 'Room type created successfully.',
+    'updated'            => 'Room type updated successfully.',
+    'deleted'            => 'Room type deleted successfully.',
+    'not_found'          => 'Room type not found.',
+    'unauthorized'       => 'You are not authorized to access these room types.',
+    'unexpected'         => 'An unexpected error occurred.',
+    'unexpected_create'  => 'An unexpected error occurred while creating the room type.',
+    'unexpected_update'  => 'An unexpected error occurred while updating the room type.',
+    'unexpected_delete'  => 'An unexpected error occurred while deleting the room type.',
+
+    'validation' => [
+        'room_code.required'   => 'The room code is required.',
+        'room_code.string'     => 'The room code must be a string.',
+        'room_code.max'        => 'The room code may not be greater than :max characters.',
+        'room_code.unique'     => 'The room code has already been taken.',
+        'name.required'        => 'The room type name is required.',
+        'name.array'           => 'The room type name must be an array.',
+        'name.en.required'     => 'The English room type name is required.',
+        'name.ar.required'     => 'The Arabic room type name is required.',
+        'description.array'    => 'The description must be an array.',
+        'description.en.string'=> 'The English description must be a string.',
+        'description.ar.string'=> 'The Arabic description must be a string.',
+        'base_price.required'  => 'The base price is required.',
+        'base_price.numeric'   => 'The base price must be a number.',
+        'base_price.min'       => 'The base price must be at least :min.',
+        'category_id.required' => 'The category is required.',
+        'category_id.exists'   => 'The selected category does not exist.',
+        'views.array'          => 'The views must be an array.',
+        'views.*.exists'       => 'One or more selected views do not exist.',
+    ],
+];
